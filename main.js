@@ -24,7 +24,8 @@ module.exports = function (opts) {
     warning: warning,
     success: success,
     state: notifications,
-    options: opts
+    options: opts, 
+    update : update
   }
 
   function add (notification) {
